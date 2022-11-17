@@ -26,7 +26,7 @@ public class Task1 {
     // Исключение нулевого указателя
     public static void printStringArray(String[] sArray){
         for (String item: sArray){
-            if(item == null) throw new NullPointerException("увы, но элемент отсутствует!!!");
+            if(item == null) throw new NullPointerException("увы, но элемент отсутствует!");
             System.out.println(item);
         }
     }
